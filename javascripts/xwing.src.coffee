@@ -559,7 +559,7 @@ class exportObj.SquadBuilderBackend
                 <div class="btn-group squad-display-mode full-row">
                     <button class="btn btn-modal btn-inverse show-all-squads translated" defaultText="All"></button>
                     <button class="btn btn-modal show-extended-squads"><span class="d-none d-lg-block translated" defaultText="Extended"></span><span class="d-lg-none translated" defaultText="Ext"></span></button>
-                    <button class="btn btn-modal show-hyperspace-squads"><span class="d-none d-lg-block translated" defaultText="Hyperspace"></span><span class="d-lg-none translated" defaultText="Hyper"></span></button>
+                    <button class="btn btn-modal show-hyperspace-squads"><span class="d-none d-lg-block translated" defaultText="BoomOwlerSpace"></span><span class="d-lg-none translated" defaultText="Hyper"></span></button>
                     <button class="btn btn-modal show-quickbuild-squads"><span class="d-none d-lg-block translated" defaultText="Quickbuild"></span><span class="d-lg-none translated" defaultText="QB"></span></button>
                     <button class="btn btn-modal show-epic-squads translated" defaultText="Epic"></button>
                     <button class="btn btn-modal show-archived-squads translated" defaultText="Archived"></button>
@@ -2351,7 +2351,7 @@ class exportObj.SquadBuilder
                     <br />
                     <select class="game-type-selector">
                         <option value="standard" class="translated" defaultText="Extended" selected="selected">#{@uitranslation("Extended")}</option>
-                        <option value="hyperspace" class="translated" defaultText="Hyperspace"></option>
+                        <option value="hyperspace" class="translated" defaultText="BoomOwlerSpace"></option>
                         <option value="epic" class="translated" defaultText="Epic"></option>
                         <option value="quickbuild" class="translated" defaultText="Quickbuild"></option>
                     </select>
